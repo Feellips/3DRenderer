@@ -34,7 +34,7 @@ public class Star3D {
 
     public void UpdateAndRender(Bitmap target, float delta) {
 
-        final float tanHalfFOV = (float)Math.tan(Math.toRadians(140.0 / 2.0));
+        final float tanHalfFOV = (float)Math.tan(Math.toRadians(90.0 / 2.0));
 
         target.Clear((byte) 0x00);
 
